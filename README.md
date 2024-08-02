@@ -190,4 +190,12 @@ urlpatterns = [
 3. **Access the application**:
    Open your web browser and go to `http://127.0.0.1:8000/`.
    ![Screenshot (403)](https://github.com/user-attachments/assets/03968462-6f95-4a37-bd44-36dd5784ddaa)
+![Screenshot (404)](https://github.com/user-attachments/assets/d3fdfc0e-04e0-41c0-bd2c-5894cce49a4c)
+![Screenshot 2024-08-02 235417](https://github.com/user-attachments/assets/89adbbad-643e-4861-a36d-109281c30e51)
+
+![Screenshot 2024-08-02 235337](https://github.com/user-attachments/assets/65fc20e0-4d2f-493e-86e0-8b93b35ac41c)
+
+![Screenshot 2024-08-02 235351](https://github.com/user-attachments/assets/3db3cd14-8731-42ed-b6b5-e83ef2cfbf35)
+
+
 
