@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSV Analysis</title>
+</head>
+<body>
+    {% load static %}
+    <h1>Upload CSV File</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if summary_stats %}
+        <h2>Summary Statistics</h2>
+        {{ summary_stats|safe }}
+
+        <h2>First Few Rows</h2>
+        {{ first_few_rows|safe }}
+
+        <h2>Missing Values</h2>
+        {{ missing_values|safe }}
+
+        <h2>Medians</h2>
+        {{ medians|safe }}
+
+        {% if histogram_img %}
+            <h2>Visualization</h2>
+            <img src="{% static histogram_img %}" alt="Histogram">
+        {% endif %}
+    {% endif %}
+</body>
+</html>
