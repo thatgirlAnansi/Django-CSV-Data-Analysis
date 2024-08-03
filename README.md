@@ -1,8 +1,5 @@
 # Django-CSV-Data-Analysis
 
-
-Sure, here's a concise version of the guide to create a Django-based web application for uploading CSV files, performing data analysis using pandas, and displaying the results and visualizations:
-
 ### 1. Django Setup
 
 1. **Install Django and other dependencies**:
